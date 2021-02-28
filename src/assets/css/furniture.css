@@ -1,0 +1,26 @@
+.furniture {
+  position: absolute;
+  width: var(--tile-size);
+  height: var(--tile-size);
+  background: rgba(255, 0, 0, 0.185);
+}
+
+/* .furniture1 {
+  top: calc(var(--tile-size)*2);
+  left: calc(var(--tile-size)*3);
+}
+
+.furniture2 {
+  top: calc(var(--tile-size)*2);
+  left: calc(var(--tile-size)*8);
+}
+
+.furniture3 {
+  top: calc(var(--tile-size)*2);
+  left: calc(var(--tile-size)*16);
+}
+
+.furniture4 {
+  top: calc(var(--tile-size)*17);
+  left: calc(var(--tile-size)*2);
+} */

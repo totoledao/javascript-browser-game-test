@@ -4,7 +4,6 @@
   "description": "Javascript 4 Gamers - Aprenda JS criando um game!",
   "author": "Gabriel Tosta <gabrieltosta3@gmail.com>",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "eslint": "^7.19.0"
   }

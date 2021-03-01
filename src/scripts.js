@@ -113,12 +113,11 @@ function createBoard(){
       }
 
       if (currentEl.item === 'mini-demon' && conflictItem?.item === 'hero') {
-        finishGame('você foi morto');
+        finishGame('Você foi morto!');
       }
       if (alerted === false && passos < 1 ){
-        alerted = true;
-        console.log('Opa, '+passos+' passos!', alerted);            
-        finishGame('Você está muito cansado para continuar');
+        alerted = true;           
+        finishGame('Você está muito cansado para continuar.');
       }
     }
 
@@ -142,8 +141,7 @@ function createBoard(){
          currentElement.item === 'hero' && buttonPressed === 'a' ||
          currentElement.item === 'hero' && buttonPressed === 's' ||
          currentElement.item === 'hero' && buttonPressed === 'd' ){
-      passos = passos - 1;
-      console.log(passos);
+      passos = passos - 1;      
       updateStepCounter ()
       }
       
@@ -153,8 +151,6 @@ function createBoard(){
     function updateStepCounter (){
       const counterCSS = document.getElementsByClassName('steps');
       counterCSS[0].innerHTML = `Passos: ${passos}`;
-      console.log(counterCSS[0]);
-
     }
 
     return{
